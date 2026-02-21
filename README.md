@@ -52,7 +52,7 @@ Defines database operations using JPA EntityManager and JPQL queries.
 Entity Layer
 The Employee class is a JPA entity mapped to the database table.
 
-## 3. Project Structure
+## </> 3. Project Structure
  JPA-project/
 │
 ├── src/main/java/
