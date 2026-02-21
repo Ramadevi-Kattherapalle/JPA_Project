@@ -88,7 +88,7 @@ The Employee class is a JPA entity mapped to the database table.
 │
 ├── pom.xml
 └── README.md
-4. Technology Stack
+## 4. Technology Stack
 Component	Technology
 Language	Java 8+
 Persistence	JPA (Hibernate)
@@ -109,7 +109,7 @@ phonenumber	String	Contact number
 role	String	Role / Course
 company	String	Company or College
 password	String	Login password
-6. Application Flow
+## 6. Application Flow
 
 Register – User fills the registration form. Data is saved using JPA persist() method.
 
@@ -123,14 +123,14 @@ Delete – Removes employee record using remove() method.
 
 Logout – Ends the session and redirects to login page.
 
-7. Servlet Endpoints
+## 7. Servlet Endpoints
 Servlet	URL	Method	Action
 LoginJPA	/login	GET/POST	Login & Authentication
 RegisterJPA	/register	GET/POST	User Registration
 HomeJPA	/home	GET	Display all employees
 EditJPA	/edit	POST	Update employee
 DeleteJPA	/delete	POST	Delete employee
-8. JPA Queries Used
+## 8. JPA Queries Used
 
 Login Query:
 
@@ -148,7 +148,7 @@ Delete → em.remove(emp)
 
 All database operations are handled using EntityTransaction with proper commit and rollback handling.
 
-9. Database Configuration
+## 9. Database Configuration
 
 JPA configuration file location:
 
@@ -172,7 +172,7 @@ JDBC URL
 
 Username & Password in persistence.xml
 
-10. Setup and Installation
+## 10. Setup and Installation
 Prerequisites
 
 Java 8 or higher
@@ -205,7 +205,7 @@ http://localhost:8080/JPA-project/login
 
 Register and login to manage employee records
 
-11. Contributing
+## 11. Contributing
 
 Contributions are welcome.
 You can:
@@ -218,11 +218,11 @@ Make changes
 
 Submit a Pull Request
 
-12. License
+## 12. License
 
 This project is open-source and available under the MIT License.
 
-13. Author
+## 13. Author
 
 Ramadevi Kattherapalle
 GitHub: https://github.com/Ramadevi-Kattherapalle/JPA_project
