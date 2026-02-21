@@ -1,4 +1,4 @@
-JPA-project – Employee Management System 
+## JPA-project – Employee Management System 
 
 A Java web application that demonstrates full CRUD (Create, Read, Update, Delete) operations using Java Persistence API (JPA) with Hibernate.
 The project follows a clean layered architecture including Controller, Service, DAO, and Entity layers, with JSP-based UI and PostgreSQL database integration.
@@ -31,12 +31,12 @@ Table of Contents
 
 13.Author
 
-1. Project Overview
+## 1. Project Overview
 
 JPA-project is a session-based Employee Management System where users can register, log in, and perform CRUD operations on employee records stored in a relational database.
 The persistence layer is implemented using JPA with EntityManager, making the application database-independent (any JDBC-supported database can be configured via pom.xml and persistence.xml).
 
-2. Architecture
+## 2. Architecture
 
 The application follows a 4-layer architecture:
 
@@ -52,7 +52,7 @@ Defines database operations using JPA EntityManager and JPQL queries.
 Entity Layer
 The Employee class is a JPA entity mapped to the database table.
 
-3. Project Structure
+## 3. Project Structure
  JPA-project/
 │
 ├── src/main/java/
