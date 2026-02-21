@@ -30,41 +30,42 @@ This project follows a 4-layer architecture:
 ## 3. Project Structure
 JPAproject/
 │
-├── src/main/java/
-│ ├── com.example.Controller/
-│ │ ├── LoginJPA.java
-│ │ ├── RegisterJPA.java
-│ │ ├── HomeJPA.java
-│ │ ├── EditJPA.java
-│ │ └── DeleteJPA.java
-│ │
-│ ├── com.example.dao/
-│ │ └── DataBaseOperation.java
-│ │
-│ ├── com.example.daoimplementation/
-│ │ └── DataBaseOperationImp.java
-│ │
-│ ├── com.example.Entity/
-│ │ └── Employee.java
-│ │
-│ ├── com.example.Service/
-│ │ └── Service.java
-│ │
-│ └── com.example.ServiceImplementation/
-│ └── ServiceImp.java
-│
-├── src/main/resources/
-│ └── META-INF/
-│ └── persistence.xml
-│
-├── src/main/webapp/
-│ ├── login.jsp
-│ ├── register.jsp
-│ └── home.jsp
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com.example/
+│       │       ├── Controller/
+│       │       │   ├── LoginJPA.java        (URL: /login)
+│       │       │   ├── RegisterJPA.java     (URL: /register)
+│       │       │   ├── HomeJPA.java         (URL: /home)
+│       │       │   ├── EditJPA.java         (URL: /edit)
+│       │       │   └── DeleteJPA.java       (URL: /delete)
+│       │       │
+│       │       ├── dao/
+│       │       │   └── DataBaseOperation.java   (DAO Interface)
+│       │       │
+│       │       ├── daoimplementation/
+│       │       │   └── DataBaseOperationImp.java (JPA Implementation)
+│       │       │
+│       │       ├── Entity/
+│       │       │   └── Employee.java        (JPA Entity)
+│       │       │
+│       │       ├── Service/
+│       │       │   └── Service.java         (Service Interface)
+│       │       │
+│       │       └── ServiceImplementation/
+│       │           └── ServiceImp.java      (Business Logic)
+│       │
+│       ├── resources/
+│       │   └── META-INF/
+│       │       └── persistence.xml          (JPA Configuration)
+│       │
+│       └── webapp/
+│           ├── login.jsp
+│           ├── register.jsp
+│           └── home.jsp
 │
 └── pom.xml
-
----
 
 ## 4. Technology Stack
 - **Language:** Java 8  
