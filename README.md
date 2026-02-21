@@ -70,6 +70,7 @@ JPAproject/
 │   │       ├── register.jsp
 │   │       └── home.jsp
 └── pom.xml
+---
 ## 4. Technology Stack
 - **Language:** Java 8  
 - **Backend:** JPA (Java Persistence API), Servlets (Jakarta EE)  
