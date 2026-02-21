@@ -42,7 +42,7 @@ DAO Layer - The DataBaseOperation interface defines database operations. DataBas
 
 Entity Layer - The Employee class is a JPA-annotated entity that maps directly to the Employee table in the database.
 
-## 3. Project Structure
+### 3. Project Structure
 JPAproject/
 │
 ├── src/
