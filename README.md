@@ -1,4 +1,4 @@
-# JPA Employee Management System
+# JPA-Project:Employee Management System
 
 A full-stack Java web application that performs CRUD (Create, Read, Update, Delete) operations using Java Persistence API (JPA) with a layered architecture.
 This project demonstrates real-time employee data management with JSP-based frontend and JPA-based backend connected to a relational database.
@@ -7,7 +7,7 @@ This project demonstrates real-time employee data management with JSP-based fron
 
 ## 📌 Project Overview
 
-The **JPA Employee Management System** is a web-based application designed to manage employee records efficiently.
+The **JPA-Project: Employee Management System** is a web-based application designed to manage employee records efficiently.
 It follows a clean MVC-style layered structure including Controller, Service, DAO, and Entity layers.
 
 Users can:
